@@ -1,9 +1,3 @@
-# Example for OAuth 2 Server
+# CitizenID
 
-This is an example of OAuth 2 Server.
-
-Find more details on <http://lepture.com/en/2013/create-oauth-server>
-
-# INSTALLATION
-
-$ pip install -r requirements.txt
+CitizenID is a simple OAuth provider service for civic technology projects. 
