@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-</head>
-<body>
+{% extends "layout.html" %}
+
+{% block title %}
+  A single sign-in for civic applications
+{% endblock %}
+
+{% block content %}
   {% if user %}
     <p>You are {{ user.username }}</p>
   {% else %}
@@ -16,5 +16,6 @@
     <input type="text" name="username">
     <input type="submit">
   </form>
-</body>
-</html>
+{% endblock %}
+
+{% block js %}{% endblock %}

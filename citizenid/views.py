@@ -15,6 +15,13 @@ def current_user():
     return None
 
 
+@app.context_processor
+def inject_globals():
+    return {
+        'SITE_NAME': app.config.get('SITE_NAME')
+    }
+
+
 @app.route('/', methods=('GET', 'POST'))
 def home():
     if request.method == 'POST':

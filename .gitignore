@@ -1,3 +1,5 @@
 *.sqlite
 *.pyc
 *.egg-info
+citizenid/static/vendor/*
+citizenid/static/.webassets-cache/*
