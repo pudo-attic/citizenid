@@ -8,7 +8,7 @@ from citizenid import default_settings
 app = Flask(__name__)
 
 app.config.from_object(default_settings)
-app.config.from_envvar('COAF_SETTINGS', silent=True)
+app.config.from_envvar('SETTINGS', silent=True)
 
 db = SQLAlchemy(app)
 oauth = OAuth2Provider(app)

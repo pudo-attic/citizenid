@@ -1,0 +1,11 @@
+{
+  "name": "citizenid",
+  "version": "0.1.0",
+  "main": "citizenid/static/style/style.less",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+  }
+}
